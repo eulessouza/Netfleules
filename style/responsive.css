@@ -1,0 +1,22 @@
+@media screen and (max-width:700px){
+    .m-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav{
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .titulo{
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
